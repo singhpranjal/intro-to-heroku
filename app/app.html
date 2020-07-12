@@ -1,11 +1,11 @@
 <ion-menu [content]="content">
 
   <img src="images/logo.png" style="width: 100px;margin-left:84px"/>
-
+<ion-title>Welcome to DreamHouse Realty</ion-title>
   <ion-content>
     <ion-list>
       <ion-list-header>Home Search</ion-list-header>
-      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
+      <button menuClose <ion-title>Welcome to DreamHouse Realty</ion-title>ion-item *ngFor="let p of pages" (click)="openPage(p)">
         <ion-icon item-left name="{{p.icon}}"></ion-icon>
         {{p.title}}
       </button>
